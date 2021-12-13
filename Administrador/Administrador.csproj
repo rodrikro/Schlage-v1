@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{111D0237-B1F1-4507-821C-80527CA1E7F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Administrador</RootNamespace>
+    <AssemblyName>Administrador</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>images\stack.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Administrador.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datasets\products.cs">
+      <DependentUpon>products.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Datasets\products.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>products.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\administrar_familias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\administrar_familias.Designer.cs">
+      <DependentUpon>administrar_familias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\configuration\configFileSettings.cs" />
+    <Compile Include="Modulos\configuration\configuration_editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\configuration\configuration_editor.Designer.cs">
+      <DependentUpon>configuration_editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\configuration\dbTester.cs" />
+    <Compile Include="Modulos\emails\CambiosCorrientesEmail.cs" />
+    <Compile Include="Modulos\emails\CambiosFamiliasEmail.cs" />
+    <Compile Include="Modulos\emails\EmailInterface.cs" />
+    <Compile Include="Modulos\emails\EmailServer.cs" />
+    <Compile Include="Modulos\emails\MailManipulation.cs" />
+    <Compile Include="Modulos\products\control_linea_rect_value.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modulos\products\control_linea_rect_value.Designer.cs">
+      <DependentUpon>control_linea_rect_value.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\products\crear_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\products\crear_producto.Designer.cs">
+      <DependentUpon>crear_producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\products\modificar_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\products\modificar_producto.Designer.cs">
+      <DependentUpon>modificar_producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\products\modificar_producto_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\products\modificar_producto_form.Designer.cs">
+      <DependentUpon>modificar_producto_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\razon_cambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\razon_cambio.Designer.cs">
+      <DependentUpon>razon_cambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\reportes\descripcion_producto_reporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\reportes\descripcion_producto_reporte.Designer.cs">
+      <DependentUpon>descripcion_producto_reporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\reportes\productos_por_acabado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\reportes\productos_por_acabado.Designer.cs">
+      <DependentUpon>productos_por_acabado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\reportes\productos_por_familia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\reportes\productos_por_familia.Designer.cs">
+      <DependentUpon>productos_por_familia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\reportes\productos_calidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\reportes\productos_calidad.Designer.cs">
+      <DependentUpon>productos_calidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\reportes\descripcion_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\reportes\descripcion_producto.Designer.cs">
+      <DependentUpon>descripcion_producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\products_by_acc.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>products_by_acc.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\products_by_family.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>products_by_family.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\product_calidad.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>product_calidad.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\product_description.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>product_description.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\administrar_familias.resx">
+      <DependentUpon>administrar_familias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\configuration\configuration_editor.resx">
+      <DependentUpon>configuration_editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\products\control_linea_rect_value.resx">
+      <DependentUpon>control_linea_rect_value.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\products\crear_producto.resx">
+      <DependentUpon>crear_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\products\modificar_producto.resx">
+      <DependentUpon>modificar_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\products\modificar_producto_form.resx">
+      <DependentUpon>modificar_producto_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\razon_cambio.resx">
+      <DependentUpon>razon_cambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\reportes\descripcion_producto.resx">
+      <DependentUpon>descripcion_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\reportes\descripcion_producto_reporte.resx">
+      <DependentUpon>descripcion_producto_reporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\reportes\productos_por_acabado.resx">
+      <DependentUpon>productos_por_acabado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\reportes\productos_por_familia.resx">
+      <DependentUpon>productos_por_familia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\reportes\productos_calidad.resx">
+      <DependentUpon>productos_calidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\products_by_acc.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>products_by_acc.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\products_by_family.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>products_by_family.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\product_calidad.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>product_calidad.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\product_description.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>product_description.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Datasets\products.xsc">
+      <DependentUpon>products.xsd</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Datasets\products.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>products.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Datasets\products.xss">
+      <DependentUpon>products.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\stack.ico" />
+    <None Include="Resources\IR_Schlg_RGB%282955%29.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

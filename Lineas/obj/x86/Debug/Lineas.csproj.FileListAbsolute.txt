@@ -1,0 +1,81 @@
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Lineas.exe
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Lineas.pdb
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.exe
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.pdb
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\C5.dll
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Plossum CommandLine.dll
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\C5.pdb
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Lineas.exe.config
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.config.configuration_form.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Newtonsoft.Json.dll
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Newtonsoft.Json.pdb
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Newtonsoft.Json.xml
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\bin\Debug\Interop.OPCAutomation.dll
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.BootScreen.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.andon_component.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.pantallas.salida.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.salida_element_component.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.pantallas.entrada.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.rack_entrada_chico.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.rack_entrada_grande.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.entrada_lectura_rack.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.entrada_agregar_rack.resources
+C:\Documents and Settings\Administrator\Desktop\Lineas\Lineas\obj\x86\Debug\Lineas.shared.entrada_agregar_rack_corriente.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Lineas.exe.config
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.exe
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.pdb
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Lineas.exe
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Lineas.pdb
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\C5.dll
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Interop.OPCAutomation.dll
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Newtonsoft.Json.dll
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Plossum CommandLine.dll
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\C5.pdb
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Newtonsoft.Json.pdb
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\bin\Debug\Newtonsoft.Json.xml
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.BootScreen.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.config.configuration_form.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.pantallas.entrada.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.pantallas.salida.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.andon_component.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.entrada_agregar_rack.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.entrada_agregar_rack_corriente.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.entrada_lectura_rack.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.rack_entrada_chico.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.rack_entrada_grande.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.salida_element_component.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Lineas\obj\x86\Debug\Lineas.shared.salida_barraplc_component.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.BootScreen.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.config.configuration_form.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.pantallas.entrada.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.pantallas.salida.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.Properties.Resources.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.andon_component.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.salida_barraplc_component.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.entrada_agregar_rack.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.entrada_agregar_rack_corriente.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.entrada_lectura_rack.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.rack_entrada_chico.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.rack_entrada_grande.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.shared.salida_element_component.resources
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.csproj.GenerateResource.cache
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.exe
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.pdb
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\bin\Debug\Lineas.exe.config
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\bin\Debug\Lineas.exe
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\bin\Debug\Lineas.pdb
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\bin\Debug\C5.pdb
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rodrigo-MK\Documents\YO\01. Programacion\10. Said\Original Last Version\Schlage - CodigoFuente 202007\Lineas\obj\x86\Debug\Lineas.csproj.AssemblyReference.cache

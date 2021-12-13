@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D4162EB-72E7-4DC3-A136-F248E5126BD7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lineas</RootNamespace>
+    <AssemblyName>Lineas</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Lineas.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono_5i7_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C5">
+      <HintPath>..\..\plossum-commandline.bin\C5.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.OPCAutomation">
+      <HintPath>..\..\OPCAutomation\Interop.OPCAutomation.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Plossum CommandLine">
+      <HintPath>..\..\plossum-commandline.bin\Plossum CommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BootScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BootScreen.Designer.cs">
+      <DependentUpon>BootScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="config\CommandLineArguments.cs" />
+    <Compile Include="config\configuration.cs" />
+    <Compile Include="config\configuration_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="config\configuration_form.Designer.cs">
+      <DependentUpon>configuration_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pantallas\entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pantallas\entrada.Designer.cs">
+      <DependentUpon>entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pantallas\salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pantallas\salida.Designer.cs">
+      <DependentUpon>salida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services\AndonDB.cs" />
+    <Compile Include="services\DataDB.cs" />
+    <Compile Include="services\Database.cs" />
+    <Compile Include="services\Opc.cs" />
+    <Compile Include="services\plc\PlcLineaSalida.cs" />
+    <Compile Include="services\plc\PlcLineaEntrada.cs" />
+    <Compile Include="services\plc\PlcAndon.cs" />
+    <Compile Include="services\plc\PlcPullOut.cs" />
+    <Compile Include="services\plc\PlcDataConcat.cs" />
+    <Compile Include="services\plc\PlcWorkrack.cs" />
+    <Compile Include="shared\andon_component.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\andon_component.Designer.cs">
+      <DependentUpon>andon_component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\salida_barraplc_component.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\salida_barraplc_component.Designer.cs">
+      <DependentUpon>salida_barraplc_component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\entrada_corriente_a_subir.cs" />
+    <Compile Include="shared\entrada_agregar_rack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\entrada_agregar_rack.Designer.cs">
+      <DependentUpon>entrada_agregar_rack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\entrada_agregar_rack_corriente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\entrada_agregar_rack_corriente.Designer.cs">
+      <DependentUpon>entrada_agregar_rack_corriente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\entrada_lectura_rack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\entrada_lectura_rack.Designer.cs">
+      <DependentUpon>entrada_lectura_rack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\ILinea.cs" />
+    <Compile Include="shared\Irack_entrada.cs" />
+    <Compile Include="shared\lineaEntrada.cs" />
+    <Compile Include="shared\paqueteSalidaPlc.cs" />
+    <Compile Include="shared\rack_entrada_chico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\rack_entrada_chico.Designer.cs">
+      <DependentUpon>rack_entrada_chico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\rack_entrada_grande.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\rack_entrada_grande.Designer.cs">
+      <DependentUpon>rack_entrada_grande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\salida_element_component.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="shared\salida_element_component.Designer.cs">
+      <DependentUpon>salida_element_component.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shared\SlotSalida.cs" />
+    <Compile Include="shared\VerticalScrollFlow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="shared\workrack.cs" />
+    <EmbeddedResource Include="BootScreen.resx">
+      <DependentUpon>BootScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="config\configuration_form.resx">
+      <DependentUpon>configuration_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pantallas\entrada.resx">
+      <DependentUpon>entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pantallas\salida.resx">
+      <DependentUpon>salida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="shared\andon_component.resx">
+      <DependentUpon>andon_component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\salida_barraplc_component.resx">
+      <DependentUpon>salida_barraplc_component.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\entrada_agregar_rack.resx">
+      <DependentUpon>entrada_agregar_rack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\entrada_agregar_rack_corriente.resx">
+      <DependentUpon>entrada_agregar_rack_corriente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\entrada_lectura_rack.resx">
+      <DependentUpon>entrada_lectura_rack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\rack_entrada_chico.resx">
+      <DependentUpon>rack_entrada_chico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\rack_entrada_grande.resx">
+      <DependentUpon>rack_entrada_grande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shared\salida_element_component.resx">
+      <DependentUpon>salida_element_component.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono_5i7_icon.ico" />
+    <None Include="Resources\IR_Schlg_RGB%282955%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="datasets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

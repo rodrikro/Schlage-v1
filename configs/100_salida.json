@@ -1,0 +1,47 @@
+﻿{
+  "isSet": 1,
+  "simulateOPC": false,
+  "AndonConnectionString": "Server=TIJ-SV-MX8K001;Database=nx_andon;User ID=nxu_andon;Password=the_nxu_andon;Trusted_Connection=False; Timeout=10;",
+  "DataConnectionString": "Server=TIJ-SV-MX8K001;Database=nx_data;User ID=nxu_data;Password=the_nxu_data;Trusted_Connection=False; Timeout=10;",
+  "OpcServerString": "RSLinx OPC Server",
+  "OpcTopic": "nxn100",
+  "Tipo": "salida",
+  "Linea": "100",
+  "Stationnames": [
+    "153"
+  ],
+  "Workbars": 1,
+  "Racksworkbars": 1,
+  "ColaSalida": 20,
+  "PullOutSalida": 10,
+  "PuedoOxidar": false,
+  "PuedoEnviarBarras": true,
+  "SiguienteCicloAutomatico": true,
+  "VerMensajeTareaDB": false,
+  "VerMensajeCargaPLC": false,
+  "Acabados": [
+    "305","322","332","408","500","510","677","678","680","681","682","704","715"
+  ],
+  "AndonElements": [
+    {
+      "Name": "Mantenimiento",
+      "DatabaseName": "mantenimiento",
+      "PLCName": "Mannto"
+    },
+    {
+      "Name": "Materiales",
+      "DatabaseName": "materiales",
+      "PLCName": "Mat"
+    },
+    {
+      "Name": "Producción",
+      "DatabaseName": "produccion",
+      "PLCName": "Prod"
+    },
+    {
+      "Name": "Calidad",
+      "DatabaseName": "calidad",
+      "PLCName": "Calidad"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\bin\Debug\Administrador.exe
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\bin\Debug\Administrador.pdb
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Inicio.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.exe
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.pdb
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\bin\Debug\Administrador.exe.config
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.productos_por_familia.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.productos_por_acabado.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.productos_calidad.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.descripcion_producto.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.descripcion_producto_reporte.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.administrar_familias.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.products.control_linea_rect_value.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.products.crear_producto.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.products.modificar_producto.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.products.modificar_producto_form.resources
+C:\Documents and Settings\Administrator\Desktop\Administrador de Productos\Administrador\obj\x86\Debug\Administrador.Modulos.configuration.configuration_editor.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\bin\Debug\Administrador.exe.config
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\bin\Debug\Administrador.exe
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\bin\Debug\Administrador.pdb
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Inicio.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.administrar_familias.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.configuration.configuration_editor.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.products.control_linea_rect_value.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.products.crear_producto.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.products.modificar_producto.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.products.modificar_producto_form.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.descripcion_producto.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.descripcion_producto_reporte.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.productos_por_acabado.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.productos_por_familia.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.reportes.productos_calidad.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.exe
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.pdb
+C:\Documents and Settings\Administrator\Desktop\Schlage\Administrador\obj\x86\Debug\Administrador.Modulos.razon_cambio.resources

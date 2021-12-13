@@ -1,0 +1,7 @@
+*.exe
+*.pdb
+*.tlog
+*.cache
+Lineas/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+Lineas/obj/x86/Debug/Lineas.shared.salida_barraplc_component.resources
+Administrador/obj/x86/Debug/TempPE/*
